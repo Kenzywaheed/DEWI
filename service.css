@@ -1,0 +1,284 @@
+
+* {
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+.title-header {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #273d4e;
+}
+
+.section-title {
+  color: #999;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.title-line {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  padding-right: 20px;
+  color: #444444;
+  font-family: sans-serif;
+}
+
+.title-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-left: 90px;
+  width: 140px;
+  height: 3px;
+  background: orangered;
+  border-radius: 2px;
+}
+
+.service-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.service-card {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Service-box {
+  background: #fff;
+  width: 80%;
+  margin: -40px auto 0;
+  padding: 35px 20px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.icon-box {
+  width: 65px;
+  height: 65px;
+  background: orangered;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 28px;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon-box:hover {
+  color: orangered;
+  background-color: white;
+  border: 1px solid orangered;
+}
+
+.Service-box h3 {
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  color: #273d4e;
+}
+.true-section {
+  color: orangered;
+  margin-right: 4px;
+}
+::marker {
+  color: transparent;
+}
+ul {
+  padding: 0px;
+}
+.Service-box h3:hover {
+  color: orangered;
+}
+
+.logo-bar {
+  background: #f1f5fb;
+  padding: 20px 0;
+}
+
+.logo-bar img {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.logo-bar img:hover {
+  opacity: 1;
+}
+
+.content-section {
+  display: flex;
+  gap: 10px;
+}
+
+.content-item {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  gap: 5px;
+}
+
+.content-item.active {
+  background: #ff5722;
+  color: #fff;
+}
+.content-item:hover {
+  border: 1px solid orangered;
+}
+.contact-icon:hover {
+  color: orangered;
+}
+.info-list li {
+  margin-bottom: 8px;
+}
+
+.services-bg {
+  background: #f1f5fb;
+}
+
+.check-item {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.check-item i {
+  font-size: 32px;
+  color: #ff5722;
+}
+
+.check-item h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.check-item:hover {
+  border: 1px solid orangered;
+}
+
+@media (max-width: 992px) {
+  .title-line {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .title-line::after {
+    position: static;
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 10px auto 0;
+  }
+  .title-header {
+    text-align: center;
+  }
+  .Service-box {
+    width: 90%;
+  }
+
+  .service-card img {
+    height: 220px;
+  }
+
+  .service-card {
+    margin-bottom: 30px;
+  }
+
+  .logo-bar .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .content-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content-item {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .row.align-items-center {
+    text-align: center;
+  }
+
+  .row.align-items-center img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .check-item {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .Service-box {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .service-card img {
+    height: 180px;
+  }
+
+  .logo-bar img {
+    width: 70px;
+  }
+  .check-item i {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo-bar .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo-bar img {
+    width: 90px;
+  }
+}
+
+ .slider-img {
+  width: 100px;
+  border: 6px solid #dadad94d;
+  border-radius: 100%;
+}
+
+.custom-star {
+  color: rgb(255, 193, 7);
+  margin-top: 0px;
+}
+ 
+.carousel-item{
+  height: 379px;
+}
+.carousel-inner{
+  height: 478px;
+}
+.carousel-indicators{
+  height: 100px;
+
+}
+

@@ -1,0 +1,72 @@
+
+* {
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+.title-line {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  padding-right: 20px;
+  color: #444444;
+  font-family: sans-serif;
+}
+
+.title-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-left: 50px;
+  width: 140px;
+  height: 3px;
+  background: orangered;
+  border-radius: 2px;
+}
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.section-title {
+  color: #273d4e;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.team-img {
+  width: 348px;
+  height: 306px;
+}
+.team-data {
+  position: absolute;
+  bottom: -29px;
+  left: 20px;
+  right: 20px;
+  padding: 13px 13px;
+  width: 308px;
+  margin-left: 15px;
+  background-color: white;
+}
+.team-head {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 10px;
+
+}
+
+.custom {
+  position: relative;
+}
+
+.team-head {
+  position: relative;
+  margin-bottom: 15px; 
+  border-bottom: 2px solid #bec2c6; 
+  display: inline-block; 
+}
